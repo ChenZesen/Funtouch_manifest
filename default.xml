@@ -7,12 +7,9 @@
            remote="origin"
            sync-j="4" />
 
-  <project path="manifest" name="FlymeOS/manifest" />
-  <project path="tutorials" name="FlymeOS/tutorials" />
-  <project path="plugins" name="FlymeOS/plugins" />
-  <project path="build" name="FlymeOS/build" />
-  <project path="tools" name="FlymeOS/tools" />
-  <project path="flyme/release" name="FlymeOS/flyme-release"/>
-  <project path="flyme/overlay" name="FlymeOS/flyme-overlay" />
-  <project path="devices/base" name="FlymeOS/devices-base" />
+  <project path="build" name="FuntouchPatch/Funtouch_build" />
+  <project path="tools" name="FuntouchPatch/Funtouch_tools" />
+  <project path="flyme/release" name="FuntouchPatch/Funtouch-release"/>
+  <project path="flyme/overlay" name="FuntouchPatch/Funtouch-overlay" />
+  <project path="devices/base" name="FuntouchPatch/Funtouch_devices-base" />
 </manifest>
