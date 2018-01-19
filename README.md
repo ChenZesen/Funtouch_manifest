@@ -28,8 +28,11 @@
 
 
 # 3. 下载
+通过 `wget -c https://github.com/FuntouchPatch/Funtouch_manifest/raw/marshmallow-6.0/repo -P $HOME/bin`
+<br/>通过 `chmod a+rx $HOME/bin/repo`设置需要的权限
+<br/>通过 `export PATH=$HOME/bin:$PATH`导入脚本的路径，或是重启电脑
 
-通过repo init命令的`-b`参数, 选择需要下载的分支。
+通过`repo init`命令的`-b`参数, 选择需要下载的分支。
 通过`repo sync`同步: 
 
     repo init -u https://github.com/FuntouchPatch/Funtouch_manifest -b marshmallow-6.0
@@ -59,10 +62,10 @@
 
 按照如下步骤，完成一个新机型的适配：
 
-    $ funconfig      # 生成机型配置文件Makefile
-    $ fun pullota  # 生成新机型目录
-    $ fun autopatch    # 自动插桩
-    $ fun updatezip     # 生成适配完成的ROM包
+    $ funconfig      	# 生成机型配置文件Makefile
+    $ fun pullota	# 生成新机型目录
+    $ fun autopatch	# 自动插桩
+    $ fun updatezip	# 生成适配完成的ROM包
 
 
 <b>* 冲突处理</b>
