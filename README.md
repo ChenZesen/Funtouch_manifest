@@ -6,6 +6,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%20V2.0-blue.svg)](LICENSE)
 
+![image](info.png)
 
 # 2. 分支命名
 
@@ -62,10 +63,10 @@
 
 按照如下步骤，完成一个新机型的适配：
 
-    $ funconfig      	# 生成机型配置文件Makefile
-    $ fun pullota	# 生成新机型目录
-    $ fun autopatch	# 自动插桩
-    $ fun updatezip	# 生成适配完成的ROM包
+    fun config      	# 生成机型配置文件Makefile
+    fun pullota		# 生成新机型目录
+    fun autopatch	# 自动插桩
+    fun updatezip	# 生成适配完成的ROM包
 
 
 <b>* 冲突处理</b>
@@ -83,11 +84,19 @@
 
 可以跟随官方发布的最新ROM包，将已经是适配完成的机型升级到最新版本：
 
-    $ make cleanall
-    $ make upgrade
+     fun cleanall
+     fun upgrade
 
+# 5. 帮助命令
+-使用工具提供的`fun`命令来获取一些帮助信息
 
-# 5. 贡献代码
+fun `[参数]`
+其中，参数可以为`help`,`config`,`pullota`,`autopatch`和更多
+
+fun help `[参数]`
+其中，参数可以为`config`,`pullota`,`autopatch`和更多
+
+# 6. 贡献代码
 
 利用Github的Pull-Request机制，便可将内容变更发送给`FlowerToMe`审阅。
 
@@ -98,7 +107,7 @@
 - 最后，在github页面上，点击"New pull request"，向`FlowerToMe`官方发起代码审阅
 
 
-# 6. 其他
+# 7. 其他
 
 <b>* 问题求助与反馈</b>
 - <p><a href="mailto:252761878@qq.com">252761878@qq.com</a></p>
