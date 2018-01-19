@@ -88,13 +88,13 @@
      fun upgrade
 
 # 5. 帮助命令
--使用工具提供的`fun`命令来获取一些帮助信息
+使用工具提供的`fun`命令来获取一些帮助信息
 
 fun `[参数]`
-其中，参数可以为`help`,`config`,`pullota`,`autopatch`和更多
+<br/>其中，参数可以为`help`,`config`,`pullota`,`autopatch`和更多
 
 fun help `[参数]`
-其中，参数可以为`config`,`pullota`,`autopatch`和更多
+<br/>其中，参数可以为`config`,`pullota`,`autopatch`和更多
 
 # 6. 贡献代码
 
