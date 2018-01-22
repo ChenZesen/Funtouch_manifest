@@ -9,7 +9,7 @@
 
   <project path="build" name="FuntouchPatch/Funtouch_build" />
   <project path="tools" name="FuntouchPatch/Funtouch_tools" />
-  <project path="flyme/release" name="FuntouchPatch/Funtouch-release"/>
-  <project path="flyme/overlay" name="FuntouchPatch/Funtouch-overlay" />
-  <project path="devices/base" name="FuntouchPatch/Funtouch_devices-base" />
+  <project path="funtouch/release" name="FuntouchPatch/Funtouch-release"/>
+  <project path="funtouch/overlay" name="FuntouchPatch/Funtouch-overlay" />
+  <project path="devices/base" name="FuntouchPatch/Funtouch_devices_base" />
 </manifest>
